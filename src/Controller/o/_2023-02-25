@@ -1,0 +1,502 @@
+2023-02-25 00:01:27; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:01:27; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7B10
+2023-02-25 00:01:27; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:03:07; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:03:07; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7100
+2023-02-25 00:03:07; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:04:25; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:04:25; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7100
+2023-02-25 00:04:25; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:05:56; INFO; Throttle Plugin; 4660; 18992] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-25 00:05:56; INFO; Throttle Plugin; 4660; 18992] NeedXTUDriver End, need 0
+2023-02-25 00:05:56; INFO; Throttle Plugin; 4660; 18992] DCMode from 1 to 2
+2023-02-25 00:05:56; CRITICAL; Throttle Plugin; 4660; 18992] GetHyperFanSettings sn 9, IsLocked 0, HyperFanMode 2, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-25 00:05:56; CRITICAL; Throttle Plugin; 4660; 18992] CPU Use mode 2
+2023-02-25 00:05:56; CRITICAL; Throttle Plugin; 4660; 18992] GPU Use mode 2
+2023-02-25 00:05:56; INFO; Throttle Plugin; 4660; 10136] PowerMode[7]=-1
+2023-02-25 00:05:56; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-25 00:05:56; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 9, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 2, ModeForUI 2, Current Status 0x00000007, Supported 0x0000000F, IsAC 0, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-25 00:05:56; CRITICAL; Throttle Plugin; 4660; 30560] ApplyHyperFan sn 9, IsLocked 0, HyperFanMode 2
+2023-02-25 00:05:56; INFO; Throttle Plugin; 4660; 30560] IsGPUTweakEnabled:0, Mode:2
+2023-02-25 00:05:57; INFO; Throttle Plugin; 4660; 30560] GetGPUTuningValue, Mode:2, Result:0x00000000, Values:0x00000003, ProcessorFrequency:0, MemoryFrequency:0, PowerTarget:-2147483648, ThermalTarget:-2147483648
+2023-02-25 00:05:57; INFO; Throttle Plugin; 4660; 30560] SetVariBright No VariBright Configures
+2023-02-25 00:05:58; INFO; Throttle Plugin; 4660; 30560] WhisperModeSetting splLimit:2, minFps:120, ModeName:Balance
+2023-02-25 00:06:01; INFO; Throttle Plugin; 4660; 30560] SetWhisperMode splLimit:2, minFps:120, ModeName:Balance
+2023-02-25 00:06:20; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:06:20; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7640
+2023-02-25 00:06:20; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:06:26; INFO; Throttle Plugin; 4660; 10140] RecordHyperFanMode: result Unknown error 0xA0800006, ServiceInitialized 1, Job Trigger Type 56, HyperFan Mode 2, IsAC 0
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 38848] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 38848] NeedXTUDriver End, need 0
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 38848] DCMode from 2 to 1
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 38848] GetHyperFanSettings sn 10, IsLocked 0, HyperFanMode 1, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 38848] CPU Use mode 1
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 38848] GPU Use mode 1
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 10136] PowerMode[6]=-1
+2023-02-25 00:06:27; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 10, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 1, ModeForUI 1, Current Status 0x00000007, Supported 0x0000000F, IsAC 0, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 33828] ApplyHyperFan sn 10, IsLocked 0, HyperFanMode 1
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 33828] IsGPUTweakEnabled:0, Mode:1
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 33828] GetGPUTuningValue, Mode:1, Result:0x00000000, Values:0x00000003, ProcessorFrequency:0, MemoryFrequency:0, PowerTarget:-2147483648, ThermalTarget:-2147483648
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 33828] SetVariBright No VariBright Configures
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 36168] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 36168] NeedXTUDriver End, need 0
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 36168] DCMode from 1 to 2
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 36168] GetHyperFanSettings sn 11, IsLocked 0, HyperFanMode 2, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 36168] CPU Use mode 2
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 36168] GPU Use mode 2
+2023-02-25 00:06:27; INFO; Throttle Plugin; 4660; 10136] PowerMode[7]=-1
+2023-02-25 00:06:27; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-25 00:06:27; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 11, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 2, ModeForUI 2, Current Status 0x00000007, Supported 0x0000000F, IsAC 0, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-25 00:06:28; INFO; Throttle Plugin; 4660; 33828] WhisperModeSetting splLimit:1, minFps:60, ModeName:Slient
+2023-02-25 00:06:28; INFO; Throttle Plugin; 4660; 33324] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-25 00:06:28; INFO; Throttle Plugin; 4660; 33324] NeedXTUDriver End, need 0
+2023-02-25 00:06:28; INFO; Throttle Plugin; 4660; 33324] DCMode from 2 to 1
+2023-02-25 00:06:28; CRITICAL; Throttle Plugin; 4660; 33324] GetHyperFanSettings sn 12, IsLocked 0, HyperFanMode 1, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-25 00:06:28; CRITICAL; Throttle Plugin; 4660; 33324] CPU Use mode 1
+2023-02-25 00:06:28; CRITICAL; Throttle Plugin; 4660; 33324] GPU Use mode 1
+2023-02-25 00:06:28; INFO; Throttle Plugin; 4660; 10136] PowerMode[6]=-1
+2023-02-25 00:06:28; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-25 00:06:28; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 12, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 1, ModeForUI 1, Current Status 0x00000007, Supported 0x0000000F, IsAC 0, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 22484] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 22484] NeedXTUDriver End, need 0
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 22484] DCMode from 1 to 2
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 22484] GetHyperFanSettings sn 13, IsLocked 0, HyperFanMode 2, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 22484] CPU Use mode 2
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 22484] GPU Use mode 2
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 10136] PowerMode[7]=-1
+2023-02-25 00:06:29; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 13, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 2, ModeForUI 2, Current Status 0x00000007, Supported 0x0000000F, IsAC 0, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 32916] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 32916] NeedXTUDriver End, need 0
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 32916] DCMode from 2 to 1
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 32916] GetHyperFanSettings sn 14, IsLocked 0, HyperFanMode 1, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 32916] CPU Use mode 1
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 32916] GPU Use mode 1
+2023-02-25 00:06:29; INFO; Throttle Plugin; 4660; 10136] PowerMode[6]=-1
+2023-02-25 00:06:29; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-25 00:06:29; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 14, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 1, ModeForUI 1, Current Status 0x00000007, Supported 0x0000000F, IsAC 0, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-25 00:06:31; INFO; Throttle Plugin; 4660; 33828] SetWhisperMode splLimit:1, minFps:60, ModeName:Slient
+2023-02-25 00:06:31; CRITICAL; Throttle Plugin; 4660; 39316] ApplyHyperFan sn 14, IsLocked 0, HyperFanMode 1
+2023-02-25 00:06:31; INFO; Throttle Plugin; 4660; 39316] IsGPUTweakEnabled:0, Mode:1
+2023-02-25 00:06:31; INFO; Throttle Plugin; 4660; 39316] GetGPUTuningValue, Mode:1, Result:0x00000000, Values:0x00000003, ProcessorFrequency:0, MemoryFrequency:0, PowerTarget:-2147483648, ThermalTarget:-2147483648
+2023-02-25 00:06:31; INFO; Throttle Plugin; 4660; 39316] SetVariBright No VariBright Configures
+2023-02-25 00:06:32; INFO; Throttle Plugin; 4660; 39316] WhisperModeSetting splLimit:1, minFps:60, ModeName:Slient
+2023-02-25 00:06:35; INFO; Throttle Plugin; 4660; 39316] SetWhisperMode splLimit:1, minFps:60, ModeName:Slient
+2023-02-25 00:06:59; INFO; Throttle Plugin; 4660; 10140] RecordHyperFanMode: result Unknown error 0xA0800006, ServiceInitialized 1, Job Trigger Type 56, HyperFan Mode 1, IsAC 0
+2023-02-25 00:07:24; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:07:24; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F72C0
+2023-02-25 00:07:24; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:09:22; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:09:22; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7090
+2023-02-25 00:09:22; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:10:42; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:10:42; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7A30
+2023-02-25 00:10:42; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:12:37; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:12:37; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7090
+2023-02-25 00:12:37; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:14:17; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:14:17; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F72C0
+2023-02-25 00:14:17; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:16:44; INFO; Throttle Plugin; 4660; 22760] IsPadMode 0, IsVertical 0, IsSupported 0
+2023-02-25 00:16:44; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:16:44; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7790
+2023-02-25 00:16:44; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:16:48; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:16:48; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7640
+2023-02-25 00:16:48; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:16:48; INFO; Throttle Plugin; 4660; 15512] IsPadMode 0, IsVertical 0, IsSupported 0
+2023-02-25 00:17:18; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:17:18; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F72C0
+2023-02-25 00:17:18; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:19:08; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:19:08; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7640
+2023-02-25 00:19:08; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:20:41; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:20:41; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7BF0
+2023-02-25 00:20:41; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:22:21; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:22:21; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7090
+2023-02-25 00:22:21; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:23:42; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:23:42; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7790
+2023-02-25 00:23:42; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:25:04; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:25:04; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F72C0
+2023-02-25 00:25:04; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:26:21; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:26:21; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7640
+2023-02-25 00:26:21; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:27:37; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:27:37; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7640
+2023-02-25 00:27:37; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:29:18; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:29:18; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7640
+2023-02-25 00:29:18; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:29:36; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:29:36; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=00000257192F7BF0
+2023-02-25 00:29:36; INFO; Throttle Plugin; 4660; 9704] bFirst 0
+2023-02-25 00:29:36; INFO; Throttle Plugin; 4660; 9704] PowerStatus from 0x00000000 to 0x00000001 for PD
+2023-02-25 00:29:36; CRITICAL; Throttle Plugin; 4660; 9704] GetHyperFanSettings sn 15, IsLocked 0, HyperFanMode 1, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-25 00:29:36; CRITICAL; Throttle Plugin; 4660; 9704] CPU Use mode 1
+2023-02-25 00:29:36; CRITICAL; Throttle Plugin; 4660; 9704] GPU Use mode 1
+2023-02-25 00:29:36; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:29:36; INFO; Throttle Plugin; 4660; 10136] PowerMode[1]=-1
+2023-02-25 00:29:36; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-25 00:29:36; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 15, remaining 0): IsChanged 0, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000008, Mode 1, ModeForUI 1, Current Status 0x0000000F, Supported 0x0000000F, IsAC 1, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-25 00:29:36; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:29:36; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=10, lpEventData=0000000000000000
+2023-02-25 00:29:36; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:29:37; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:29:37; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=10, lpEventData=0000000000000000
+2023-02-25 00:29:37; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:29:38; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:29:38; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=10, lpEventData=0000000000000000
+2023-02-25 00:29:38; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:29:39; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:2, device:268435462, modelname:Aura Wallpaper, id:none
+2023-02-25 00:29:39; INFO; GameBoxPlugIn; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:39; INFO; GameLibrary Pluing; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:39; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:39; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:39; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:39; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:40; WARNING; AEF Core; 4660; 10152] (AsusDeviceMonitor)Receive Update but device(268435462:Aura Wallpaper:none:0) can not be found...do add
+2023-02-25 00:29:40; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:7, device:268435462, modelname:Aura Wallpaper, id:none
+2023-02-25 00:29:40; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:40; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:40; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:29:40; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-25 00:30:06; INFO; Throttle Plugin; 4660; 10140] RecordHyperFanMode: result Unknown error 0xA0800006, ServiceInitialized 1, Job Trigger Type 56, HyperFan Mode 1, IsAC 1
+2023-02-25 00:30:08; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:30:08; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:30:08; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:30:42; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:30:42; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:30:42; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:31:30; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:31:30; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:31:30; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:32:07; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:32:07; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:32:07; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:33:20; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:33:20; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:33:20; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:33:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:33:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:33:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:34:33; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:34:33; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:34:33; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:35:09; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:35:09; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36440
+2023-02-25 00:35:09; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:35:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:35:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:35:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:36:23; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:36:23; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:36:23; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:36:42; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:36:42; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:36:42; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:37:35; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:37:35; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:37:35; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:38:13; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:38:13; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:38:13; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:38:42; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:38:42; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:38:42; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:39:25; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:39:25; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:39:25; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:39:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:39:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:39:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:40:39; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:40:39; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:40:39; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:41:16; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:41:16; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:41:16; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:41:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:41:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:41:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:42:28; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:42:28; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:42:28; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:43:05; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:43:05; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:43:05; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:43:41; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:43:41; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:43:41; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:44:18; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:44:18; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36440
+2023-02-25 00:44:18; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:44:37; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:44:37; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:44:37; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:45:30; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:45:30; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:45:30; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:46:07; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:46:07; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:46:07; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:46:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:46:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36440
+2023-02-25 00:46:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:47:19; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:47:19; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:47:19; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:47:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:47:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:47:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:48:33; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:48:33; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:48:33; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:49:10; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:49:10; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:49:10; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:49:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:49:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:49:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:50:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:50:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36440
+2023-02-25 00:50:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:51:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:51:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:51:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:52:38; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:52:38; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:52:38; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:53:21; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:53:21; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:53:21; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:54:32; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:54:32; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 00:54:32; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:55:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:55:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36440
+2023-02-25 00:55:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:56:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:56:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:56:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:57:32; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:57:32; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:57:32; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:58:16; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:58:16; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36440
+2023-02-25 00:58:16; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 00:59:31; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 00:59:31; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 00:59:31; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:00:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:00:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:00:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:01:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:01:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:01:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:03:10; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:03:10; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:03:10; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:03:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:03:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:03:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:04:31; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:04:31; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:04:31; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:05:25; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:05:25; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:05:25; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:06:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:06:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:06:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:09:08; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:09:08; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:09:08; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:09:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:09:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:09:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:10:41; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:10:41; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:10:41; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:13:10; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:13:10; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:13:10; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:14:18; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:14:18; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:14:18; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:14:39; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:14:39; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:14:39; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:15:32; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:15:32; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:15:32; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:16:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:16:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:16:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:17:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:17:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:17:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:19:15; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:19:15; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:19:15; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:20:18; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:20:18; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:20:18; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:20:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:20:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:20:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:21:43; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:21:43; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:21:43; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:22:37; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:22:37; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:22:37; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:23:29; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:23:29; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:23:29; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:24:23; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:24:23; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:24:23; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:25:19; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:25:19; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:25:19; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:26:19; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:26:19; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E36210
+2023-02-25 01:26:19; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:27:20; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:27:20; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025747E35E90
+2023-02-25 01:27:20; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:27:36; WARNING; AEF Core; 4660; 5212] Read packet failed from UserSessionHelper.
+2023-02-25 01:27:36; INFO; AEF Core; 4660; 5212] Leave GetPacket loop - UserSessionHelper.
+2023-02-25 01:27:36; ERROR; AEF Core; 4660; 10156] (AsusDeviceMonitor)ReadPipe Error - GetOverlappedResult:-2147024787.
+2023-02-25 01:27:36; CRITICAL; Service Manager; 4660; 26280] !--------User Session Helper was be terminated, Process ID = 28772--------!
+2023-02-25 01:27:36; INFO; Service Manager; 4660; 26280] !--------User Session Helper was be terminated due to QueryEndSession--------!
+2023-02-25 01:27:42; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:27:42; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 01:27:42; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:27:43; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange TryLock
+2023-02-25 01:27:43; CRITICAL; Service Manager; 4660; 4664] OnSessionChange Start, EventType = 6, EventData = 8, New SessionId = 2, Old SessionId = 2
+2023-02-25 01:27:43; ERROR; SoulKey Plugin; 4660; 9736] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; GameBoxPlugIn; 4660; 9700] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; DeviceServicePlugin; 4660; 9692] [DeviceServicePlugin] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; GameLibrary Pluing; 4660; 9688] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; DenoiseAI Pluing; 4660; 9664] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; Free Up Memory Plugin; 4660; 9696] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; GPU Power Saving Plugin ; 4660; 9708] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; AC_FDSPlugIn; 4660; 9680] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; NormalSwitch Plugin ; 4660; 9716] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; CRITICAL; Service Manager; 4660; 4664] OnSessionChange End, EventType = 6, EventData = 8, New SessionId = 2, Old SessionId = 2
+2023-02-25 01:27:43; ERROR; WebSocketClientPlugin; 4660; 9668] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; INFO; ScenarioProfilePlugIn; 4660; 9732] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange Unlock
+2023-02-25 01:27:43; ERROR; Mobile Plugin; 4660; 9728] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:43; ERROR; Virtual Drive Plugin; 4660; 9656] UserSession:0, OnSessionChange: Event:6
+2023-02-25 01:27:53; CRITICAL; Service Manager; 4660; 18888] FlowLock CheckUserSessionHelper TryLock
+2023-02-25 01:27:53; INFO; Service Manager; 4660; 18888] CheckUserSessionHelper info: new SessionId = 2, old SessionId = -1, UserSessionMonitorThread = 0000000000001098
+2023-02-25 01:27:53; CRITICAL; Service Manager; 4660; 18888] FlowLock CheckUserSessionHelper Unlock
+2023-02-25 01:28:35; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:28:35; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 01:28:35; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-25 01:29:07; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-25 01:29:48; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:29:48; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:29:48; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:30:56; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:30:56; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 01:30:56; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:31:04; INFO; Service Manager; 4660; 26280] WaitForLogoutCanceledEvent Timeout
+2023-02-25 01:31:04; INFO; Service Manager; 4660; 26280] Exit ~EventLogging()
+2023-02-25 01:31:04; CRITICAL; Service Manager; 4660; 26280] FlowLock UserSessionMonitor TryLock
+2023-02-25 01:31:04; CRITICAL; Service Manager; 4660; 26280] FlowLock UserSessionMonitor Unlock
+2023-02-25 01:32:07; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:32:07; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:32:07; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:33:21; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:33:21; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:33:21; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:34:34; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:34:34; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 01:34:34; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:35:48; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:35:48; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C590
+2023-02-25 01:35:48; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:37:02; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:37:02; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 01:37:02; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:38:17; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:38:17; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 01:38:17; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:39:32; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:39:32; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:39:32; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:40:51; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:40:51; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C600
+2023-02-25 01:40:51; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:42:32; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:42:32; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:42:32; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:43:49; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:43:49; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:43:49; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:45:39; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:45:39; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 01:45:39; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:47:32; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:47:32; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C600
+2023-02-25 01:47:32; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:49:31; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:49:31; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:49:31; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:51:44; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:51:44; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C590
+2023-02-25 01:51:44; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:54:36; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:54:36; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C600
+2023-02-25 01:54:36; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 01:57:38; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 01:57:38; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 01:57:38; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 02:01:13; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 02:01:13; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 02:01:13; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 02:04:44; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 02:04:44; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 02:04:44; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 02:09:35; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 02:09:35; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C750
+2023-02-25 02:09:35; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-25 02:26:14; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-25 02:26:14; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2C520
+2023-02-25 02:26:14; INFO; Service Manager; 4660; 4664] OnPowerChange End

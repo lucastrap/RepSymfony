@@ -1,0 +1,1984 @@
+2023-02-23 13:36:46; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:36:46; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=10, lpEventData=0000000000000000
+2023-02-23 13:36:46; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:36:49; CRITICAL; Service Manager; 4660; 5552] /------------Service start to initialize, version: 5.3.0.0, product line: 1------------/
+2023-02-23 13:36:49; CRITICAL; Service Manager; 4660; 5552] RegCreateForceRestart result: 1
+2023-02-23 13:36:49; CRITICAL; Service Manager; 4660; 8952] Bind stream socket in port 13010
+2023-02-23 13:36:49; WARNING; Service Manager; 4660; 5552] WTSQueryUserToken Failed: 0
+2023-02-23 13:36:49; CRITICAL; Service Manager; 4660; 5552] SessionId = -1, RdpId
+2023-02-23 13:36:49; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:36:49; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=10, lpEventData=0000000000000000
+2023-02-23 13:36:49; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ServiceCore.dll Interfce Version: 5.1
+2023-02-23 13:36:49; INFO; AEF Core; 4660; 5552] Before Library AEF Core v5.3.3.0 join
+2023-02-23 13:36:52; INFO; AEF Core; 4660; 5552] Library AEF Core join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; AEF Core; 4660; 5552] (3092)Loaded AEF Core v5.3.3.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ServiceTcpStream.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; Loopback Stream; 4660; 5552] Before Library Loopback Stream v5.1.2.0 join
+2023-02-23 13:36:52; INFO; Loopback Stream; 4660; 5552] Library Loopback Stream join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; Loopback Stream; 4660; 5552] (7)Loaded Loopback Stream v5.1.2.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ACStorePlugin\ACStorePlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; ACStore Plugin; 4660; 5552] Before Library ACStore Plugin v5.3.0.0 join
+2023-02-23 13:36:52; INFO; ACStore Plugin; 4660; 5552] Library ACStore Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; ACStore Plugin; 4660; 5552] (14)Loaded ACStore Plugin v5.3.0.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\AC_FDSPlugin\AC_FDSPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; AC_FDSPlugIn; 4660; 5552] Before Library AC_FDSPlugIn v5.4.7.0 join
+2023-02-23 13:36:52; INFO; AC_FDSPlugIn; 4660; 5552] Library AC_FDSPlugIn join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; AC_FDSPlugIn; 4660; 5552] (11)Loaded AC_FDSPlugIn v5.4.7.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\AuraPlugIn\AuraPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; Aura Pluing; 4660; 5552] Before Library Aura Pluing v5.3.2.0 join
+2023-02-23 13:36:52; INFO; Aura Pluing; 4660; 5552] Library Aura Pluing join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; Aura Pluing; 4660; 5552] (14)Loaded Aura Pluing v5.3.2.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\CustomHotkeyPlugin\CustomHotkeyPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; Customizable Hotkey Plugin; 4660; 5552] Before Library Customizable Hotkey Plugin v5.3.1.0 join
+2023-02-23 13:36:52; INFO; Customizable Hotkey Plugin; 4660; 5552] EC Device open failed.
+2023-02-23 13:36:52; ERROR; Customizable Hotkey Plugin; 4660; 5552] Library Customizable Hotkey Plugin v5.3.1.0 join failed, error = 0x80004005
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\DenoiseAIPlugin\DenoiseAIPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; DenoiseAI Pluing; 4660; 5552] Before Library DenoiseAI Pluing v5.4.8.1 join
+2023-02-23 13:36:52; INFO; DenoiseAI Pluing; 4660; 5552] Library DenoiseAI Pluing join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; DenoiseAI Pluing; 4660; 5552] (9)Loaded DenoiseAI Pluing v5.4.8.1 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\DeviceServicePlugIn\DeviceServicePlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; DeviceServicePlugin; 4660; 5552] Before Library DeviceServicePlugin v5.3.0.6 join
+2023-02-23 13:36:52; INFO; DeviceServicePlugin; 4660; 5552] Library DeviceServicePlugin join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; DeviceServicePlugin; 4660; 5552] (8)Loaded DeviceServicePlugin v5.3.0.6 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\FreeUpMemoryPlugin\FreeUpMemoryPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; Free Up Memory Plugin; 4660; 5552] Before Library Free Up Memory Plugin v5.2.6.0 join
+2023-02-23 13:36:52; INFO; Free Up Memory Plugin; 4660; 5552] Library Free Up Memory Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; Free Up Memory Plugin; 4660; 5552] (64)Loaded Free Up Memory Plugin v5.2.6.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\GameBoxPlugIn\GameBoxPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; GameBoxPlugIn; 4660; 5552] Before Library GameBoxPlugIn v5.3.1.0 join
+2023-02-23 13:36:52; INFO; GameBoxPlugIn; 4660; 5552] Library GameBoxPlugIn join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; GameBoxPlugIn; 4660; 5552] (169)Loaded GameBoxPlugIn v5.3.1.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\GameLibraryPlugIn\GameLibraryPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; GameLibrary Pluing; 4660; 5552] Before Library GameLibrary Pluing v5.3.0.0 join
+2023-02-23 13:36:52; INFO; GameLibrary Pluing; 4660; 5552] Library GameLibrary Pluing join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; GameLibrary Pluing; 4660; 5552] (8)Loaded GameLibrary Pluing v5.3.0.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\GameVisualPlugin\GameVisualPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; GameVisual Plugin; 4660; 5552] Before Library GameVisual Plugin v5.3.1.0 join
+2023-02-23 13:36:52; INFO; GameVisual Plugin; 4660; 5552] Library GameVisual Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; GameVisual Plugin; 4660; 5552] (11)Loaded GameVisual Plugin v5.3.1.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\GPUPowerSavingPlugin\GPUPowerSavingPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; GPU Power Saving Plugin ; 4660; 5552] Before Library GPU Power Saving Plugin  v5.3.1.0 join
+2023-02-23 13:36:52; INFO; GPU Power Saving Plugin ; 4660; 5552] bSupport = 1
+2023-02-23 13:36:52; INFO; GPU Power Saving Plugin ; 4660; 5552] Library GPU Power Saving Plugin  join to ush, result = 0x80004005
+2023-02-23 13:36:52; INFO; GPU Power Saving Plugin ; 4660; 5552] (98)Loaded GPU Power Saving Plugin  v5.3.1.0 successfully in service
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\GPUSwitchPlugin\GPUSwitchPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; GPUSwitch Plugin ; 4660; 5552] Before Library GPUSwitch Plugin  v5.4.8.1 join
+2023-02-23 13:36:52; ERROR; GPUSwitch Plugin ; 4660; 5552] Library GPUSwitch Plugin  v5.4.8.1 join failed, error = 0x80004005
+2023-02-23 13:36:52; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\GPUSwitchPlugin\NormalSwitchPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:52; INFO; NormalSwitch Plugin ; 4660; 5552] Before Library NormalSwitch Plugin  v5.4.8.1 join
+2023-02-23 13:36:53; INFO; NormalSwitch Plugin ; 4660; 5552] Library NormalSwitch Plugin  join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; NormalSwitch Plugin ; 4660; 5552] (154)Loaded NormalSwitch Plugin  v5.4.8.1 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\GridPlugin\GridPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; GridPlugin; 4660; 5552] Before Library GridPlugin v5.3.1.0 join
+2023-02-23 13:36:53; WARNING; GridPlugin; 4660; 5552] [Join] winreg::RegKey TryOpen IsOk
+2023-02-23 13:36:53; INFO; GridPlugin; 4660; 5552] [Join] GetProcessAccountName: Système
+2023-02-23 13:36:53; INFO; GridPlugin; 4660; 5552] Library GridPlugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; GridPlugin; 4660; 5552] (9)Loaded GridPlugin v5.3.1.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\HWPlugIn\HWPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; HW Pluing; 4660; 5552] Before Library HW Pluing v5.2.2.0 join
+2023-02-23 13:36:53; INFO; HW Pluing; 4660; 5552] Library HW Pluing join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; HW Pluing; 4660; 5552] (7)Loaded HW Pluing v5.2.2.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\MacroKeyPlugin\MacroKeyPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; Macro Key Plugin; 4660; 5552] Before Library Macro Key Plugin v5.3.1.0 join
+2023-02-23 13:36:53; INFO; Macro Key Plugin; 4660; 5552] Library Macro Key Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; Macro Key Plugin; 4660; 5552] (7)Loaded Macro Key Plugin v5.3.1.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\MobilePlugin\MobilePlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; Mobile Plugin; 4660; 5552] Before Library Mobile Plugin v5.2.2.0 join
+2023-02-23 13:36:53; INFO; Mobile Plugin; 4660; 5552] Library Mobile Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; Mobile Plugin; 4660; 5552] (7)Loaded Mobile Plugin v5.2.2.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\MultiwheelPlugin\MultiwheelPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; Multiwheel Plugin; 4660; 5552] Before Library Multiwheel Plugin v5.2.6.0 join
+2023-02-23 13:36:53; INFO; Multiwheel Plugin; 4660; 5552] EC Device open failed.
+2023-02-23 13:36:53; ERROR; Multiwheel Plugin; 4660; 5552] Library Multiwheel Plugin v5.2.6.0 join failed, error = 0x80004005
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ScenarioProfilePlugin\ScenarioProfilePlugIn.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; ScenarioProfilePlugIn; 4660; 5552] Before Library ScenarioProfilePlugIn v5.2.6.0 join
+2023-02-23 13:36:53; INFO; ScenarioProfilePlugIn; 4660; 5552] Library ScenarioProfilePlugIn join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; ScenarioProfilePlugIn; 4660; 5552] (55)Loaded ScenarioProfilePlugIn v5.2.6.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ScenarioProfilePlugin\WebSocketClient\WebSocketClient.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; WebSocketClientPlugin; 4660; 5552] Before Library WebSocketClientPlugin v1.5.3.0 join
+2023-02-23 13:36:53; INFO; WebSocketClientPlugin; 4660; 5552] Library WebSocketClientPlugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; WebSocketClientPlugin; 4660; 5552] (11)Loaded WebSocketClientPlugin v1.5.3.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\SoulKeyServicePlugin\SoulKeyServicePlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; SoulKey Plugin; 4660; 5552] Before Library SoulKey Plugin v5.2.0.0 join
+2023-02-23 13:36:53; INFO; SoulKey Plugin; 4660; 5552] Library SoulKey Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; SoulKey Plugin; 4660; 5552] (11)Loaded SoulKey Plugin v5.2.0.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ThrottlePlugin\ThrottlePlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; Throttle Plugin; 4660; 5552] Before Library Throttle Plugin v5.3.1.0 join
+2023-02-23 13:36:53; INFO; Throttle Plugin; 4660; 5552] Library Throttle Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; Throttle Plugin; 4660; 5552] (38)Loaded Throttle Plugin v5.3.1.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ThrottlePlugin\MonitorPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; Monitor Plugin; 4660; 5552] Before Library Monitor Plugin v5.3.4.1 join
+2023-02-23 13:36:53; INFO; Monitor Plugin; 4660; 5552] Library Monitor Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; Monitor Plugin; 4660; 5552] (8)Loaded Monitor Plugin v5.3.4.1 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ThrottlePlugin\UtilityPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; Utility Plugin; 4660; 5552] Before Library Utility Plugin v5.3.1.0 join
+2023-02-23 13:36:53; INFO; Utility Plugin; 4660; 5552] Library Utility Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; Utility Plugin; 4660; 5552] (7)Loaded Utility Plugin v5.3.1.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\ThrottlePlugin\FanControlPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; ERROR; Fan Control Plugin; 4660; 5552] Unmatched ProductLine: 32
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\UserCenterPlugin\UserCenterPlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; UserCenterPlugin; 4660; 5552] Before Library UserCenterPlugin v5.2.4.0 join
+2023-02-23 13:36:53; INFO; UserCenterPlugin; 4660; 5552] Library UserCenterPlugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; UserCenterPlugin; 4660; 5552] (6)Loaded UserCenterPlugin v5.2.4.0 successfully in service
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 5552] C:\Program Files\ASUS\ARMOURY CRATE Service\VirtualDrivePlugIn\VirtualDrivePlugin.dll Interfce Version: 5.1
+2023-02-23 13:36:53; INFO; Virtual Drive Plugin; 4660; 5552] Before Library Virtual Drive Plugin v5.1.2.0 join
+2023-02-23 13:36:53; INFO; Virtual Drive Plugin; 4660; 5552] Library Virtual Drive Plugin join to ush, result = 0x80004005
+2023-02-23 13:36:53; INFO; Virtual Drive Plugin; 4660; 5552] (33)Loaded Virtual Drive Plugin v5.1.2.0 successfully in service
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Start Registering
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] NotifyUserSession Start Registering Result: 0x80004005
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: AEF Core, RunningThread 0000000000000838, DependentLibCount 0
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Virtual Drive Plugin, RunningThread 0000000000000880, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Virtual Drive Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library AEF Core OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Loopback Stream, RunningThread 0000000000000878, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Loopback Stream OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of DenoiseAI Pluing: Count 0, LibraryIDs 0000000000000000
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: DenoiseAI Pluing, RunningThread 0000000000000894, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library DenoiseAI Pluing OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: WebSocketClientPlugin, RunningThread 0000000000000870, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library WebSocketClientPlugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of ACStore Plugin: Count 0, LibraryIDs 0000000000000000
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: ACStore Plugin, RunningThread 00000000000008D4, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library ACStore Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of Macro Key Plugin: Count 0, LibraryIDs 0000000000000000
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Macro Key Plugin, RunningThread 000000000000086C, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Macro Key Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: AC_FDSPlugIn, RunningThread 000000000000095C, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library AC_FDSPlugIn OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Aura Pluing, RunningThread 00000000000008E0, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Aura Pluing OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: GameLibrary Pluing, RunningThread 0000000000000950, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library GameLibrary Pluing OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: DeviceServicePlugin, RunningThread 000000000000096C, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library DeviceServicePlugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of Free Up Memory Plugin: Count 1, LibraryIDs 000002574881B7E4
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library Loopback Stream is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Free Up Memory Plugin, RunningThread 0000000000000954, DependentLibCount 2
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Free Up Memory Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: GameBoxPlugIn, RunningThread 00000000000009AC, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library GameBoxPlugIn OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of Throttle Plugin: Count 1, LibraryIDs 0000025748C38988
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library Loopback Stream is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Throttle Plugin, RunningThread 00000000000009BC, DependentLibCount 2
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Throttle Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of GPU Power Saving Plugin : Count 1, LibraryIDs 000002574883DC70
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library Loopback Stream is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: GPU Power Saving Plugin , RunningThread 00000000000009D8, DependentLibCount 2
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library GPU Power Saving Plugin  OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of GameVisual Plugin: Count 0, LibraryIDs 0000000000000000
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: GameVisual Plugin, RunningThread 00000000000009D4, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library GameVisual Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of NormalSwitch Plugin : Count 1, LibraryIDs 0000025748B6306C
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library Loopback Stream is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: NormalSwitch Plugin , RunningThread 00000000000009E4, DependentLibCount 2
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library NormalSwitch Plugin  OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: GridPlugin, RunningThread 00000000000009FC, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library GridPlugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of HW Pluing: Count 1, LibraryIDs 0000025748B7F028
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library Loopback Stream is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: HW Pluing, RunningThread 0000000000000A0C, DependentLibCount 2
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library HW Pluing OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Mobile Plugin, RunningThread 0000000000000A1C, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Mobile Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Dependent Libraries of ScenarioProfilePlugIn: Count 1, LibraryIDs 0000025748C5E750
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library Throttle Plugin is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: ScenarioProfilePlugIn, RunningThread 0000000000000A30, DependentLibCount 2
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library ScenarioProfilePlugIn OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: SoulKey Plugin, RunningThread 0000000000000A40, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library SoulKey Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Monitor Plugin, RunningThread 0000000000000A4C, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Monitor Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: Utility Plugin, RunningThread 0000000000000A5C, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library Utility Plugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] Library AEF Core is running
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] StartRunningRecursively, Name: UserCenterPlugin, RunningThread 0000000000000A6C, DependentLibCount 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 5552] ---Started to run library UserCenterPlugin OK---
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9652] Before Library AEF Core initialize
+2023-02-23 13:36:53; INFO; AEF Core; 4660; 9652] Core Attributes:([ModelName]:FA706ICB) ([ProductLine]:1) ([SerialNumber]:N7NRCX00D75227B) ([SubBrand]:2) ([SubBrandStyle]:1) ([SystemDeviceUUID]:ca9dfbe7-c4be-4c62-82ad-baba33179da7) ([SystemFamilyName]:ASUS TUF Gaming A17) 
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9652] (92)Library AEF Core initialize OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9652] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9748] Before Library UserCenterPlugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9740] Before Library Monitor Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9744] Before Library Utility Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9720] Before Library GridPlugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9728] Before Library Mobile Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9736] Before Library SoulKey Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9712] Before Library GameVisual Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9700] Before Library GameBoxPlugIn into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9692] Before Library DeviceServicePlugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9676] Before Library Macro Key Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9684] Before Library Aura Pluing into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9680] Before Library AC_FDSPlugIn into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9688] Before Library GameLibrary Pluing into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9668] Before Library WebSocketClientPlugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9672] Before Library ACStore Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9660] Before Library Loopback Stream into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9656] Before Library Virtual Drive Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9664] Before Library DenoiseAI Pluing into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9728] (0)Mobile Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9728] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9676] (0)Macro Key Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9676] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9700] (0)GameBoxPlugIn into AddChildLibrary OK
+2023-02-23 13:36:53; INFO; GridPlugin; 4660; 9720] [Initialize] m_inUserSession = 0
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9700] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; WARNING; Aura Pluing; 4660; 9684] [AuraPlugin][Initial] End
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9684] (0)Aura Pluing into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9684] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9688] (0)GameLibrary Pluing into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9688] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9668] (0)WebSocketClientPlugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9668] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; GridPlugin; 4660; 9720] [Initialize] Type 40 = 99
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9680] (0)AC_FDSPlugIn into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9680] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9672] (0)ACStore Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9744] (0)Utility Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9672] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9744] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9720] (0)GridPlugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9720] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Virtual Drive Plugin; 4660; 9656] Success Load
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9656] (0)Virtual Drive Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9656] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9660] (0)Loopback Stream into AddChildLibrary OK
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9748] (0)UserCenterPlugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9660] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9748] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9696] Before Library Free Up Memory Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9704] Before Library Throttle Plugin into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9708] Before Library GPU Power Saving Plugin  into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9716] Before Library NormalSwitch Plugin  into AddChildLibrary
+2023-02-23 13:36:53; INFO; Monitor Plugin; 4660; 9740] ProductLine - 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9724] Before Library HW Pluing into AddChildLibrary
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9716] (0)NormalSwitch Plugin  into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9716] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Throttle Plugin; 4660; 9704] CPU Vendor ID : 2, CPU Name: AMD Ryzen 5 4600H with Radeon Graphics         
+2023-02-23 13:36:53; INFO; Throttle Plugin; 4660; 9704] SubBrand - 2
+2023-02-23 13:36:53; INFO; Throttle Plugin; 4660; 9704] ProductLine - 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9696] (0)Free Up Memory Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9696] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9664] (0)DenoiseAI Pluing into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9664] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Throttle Plugin; 4660; 9704] Use 1.9 RyzenSDK
+2023-02-23 13:36:53; INFO; Monitor Plugin; 4660; 9740] Use 1.9 RyzenSDK
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9708] (11)GPU Power Saving Plugin  into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9708] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; SoulKey Plugin; 4660; 9736] Soulkey Plugin : Check whether it support Keystone or not.
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9736] (18)SoulKey Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9736] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9692] (48)DeviceServicePlugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9692] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9724] (65)HW Pluing into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9724] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:53; INFO; GameVisual Plugin; 4660; 9712] GameVisualPlugin::GetProjectYearFromGPNV(): Read Failed: 0x000000cb
+2023-02-23 13:36:53; INFO; GameVisual Plugin; 4660; 9712] GameVisualPlugin::Initialize(): Initialize in Service.
+2023-02-23 13:36:53; INFO; Service Manager; 4660; 9712] (140)GameVisual Plugin into AddChildLibrary OK
+2023-02-23 13:36:53; CRITICAL; Service Manager; 4660; 9712] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:55; INFO; Monitor Plugin; 4660; 9740] AMDSDK_Init OK: 1
+2023-02-23 13:36:55; INFO; Throttle Plugin; 4660; 9704] AMDSDK_Init OK: 2
+2023-02-23 13:36:55; INFO; Throttle Plugin; 4660; 9704] SupportThrottleMode - 3 - 3
+2023-02-23 13:36:55; INFO; Monitor Plugin; 4660; 9740] Create CPUInforReader.
+2023-02-23 13:36:55; WARNING; Monitor Plugin; 4660; 9740] (CPUInfoReader)WMI temperature return: 38403 
+2023-02-23 13:36:55; WARNING; Monitor Plugin; 4660; 9740] (CPUInfoReader)WMI voltage return: 0 
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 9704] Get exit code of ConfigHelper: 0
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 9704] PDDataCollector Start result = 1
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 9704] No VariBright Configures
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 9740] (3023)Monitor Plugin into AddChildLibrary OK
+2023-02-23 13:36:56; CRITICAL; Service Manager; 4660; 9740] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] NB, Config Load: 1
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] IsSupportFanCurve[0] : 1 
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] IsSupportFanCurve[1] : 1 
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] IsSupportFanCurve[2] : 0 
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] IsDTLidClosed 0, SupportDTLid 0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] SupportPDStatus 1, pd 1
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] ACMode 3, DCMode 1
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] Is Load : 1 
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] Overclock Type:3  
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 10136] Begin DequeueJob, StopEvent 0000000000000EEC JobAddedEvent 0000000000000EF4
+2023-02-23 13:36:56; WARNING; Throttle Plugin; 4660; 9704] GetEGPUConfig for EGPU config: 0x80004003
+2023-02-23 13:36:56; WARNING; Throttle Plugin; 4660; 9704] GetEGPUID for EGPU: 0x80070006
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] GetGPUTuningValue, Result:0x00000000, Values:0x00000003, ProcessorFrequency:0, MemoryFrequency:0, PowerTarget:0, ThermalTarget:0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] GetGPUTuningRange, Result:0x00000000, Values:0x00000003, MaxProcessorFrequency:1000000, MinProcessorFrequency:-1000000, MaxMemoryFrequency:300000, MinMemoryFrequency:-1000000, MaxPowerTarget:0, MinPowerTarget:0, MaxThermalTarget:0, MinThermalTarget:0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] ReloadGPUInformation dwGpuType:1, 
+TuningRange - MaxProcessorFrequency:1000000, MinProcessorFrequency:-1000000, MaxMemoryFrequency:300000, MinMemoryFrequency:-1000000, MaxDynamicBoost:0, MinDynamicBoost:0, MaxNBThermalTarget:0, MinNBThermalTarget:0, 
+DC TuningRange - MaxProcessorFrequency:0, MinProcessorFrequency:0, MaxMemoryFrequency:0, MinMemoryFrequency:0, MaxDynamicBoost:0, MinDynamicBoost:0, MaxNBThermalTarget:0, MinNBThermalTarget:0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] DeleteThrottleGearManualFile
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] DeleteThrottleGearDCManualFile
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] NeedXTUDriver End, need 0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] SupportPerCoreOC: 0, bPerCoreDisplayed 0, TGCpuInfo[HM_PERFORMANTION]: 0000000000000000
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 9704] (3133)Throttle Plugin into AddChildLibrary OK
+2023-02-23 13:36:56; CRITICAL; Service Manager; 4660; 9704] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 9732] Before Library ScenarioProfilePlugIn into AddChildLibrary
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 9732] (0)ScenarioProfilePlugIn into AddChildLibrary OK
+2023-02-23 13:36:56; CRITICAL; Service Manager; 4660; 9732] Initialized 1, JoinInInitialize 0, WithUserSession 1
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] Stop Registering
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] Registered Power Setting: {6FE69556-704A-47A0-8F24-C28D936FDA47}, hPowerNotify: 000002571890E6B0
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] Registered Power Setting: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3}, hPowerNotify: 000002571890DAE0
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] Registered Power Setting: {5D3E9A59-E9D5-4B00-A6BD-FF34FF516548}, hPowerNotify: 000002571890E3A0
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] Registered Power Setting: {A7AD8041-B45A-4CAE-87A3-EECBB468A9E1}, hPowerNotify: 000002571890DD80
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] NotifyUserSession Stop Registering Result: 0x80004005
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] NotifyServiceInitialized Start, init:1, fullInit:1.
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=000002571890EF80
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=000002571890E5E0
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] bFirst 1
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=000002571890E5E0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] PowerStatus from 0x000000FF to 0x00000001 for PD
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=000002571890D700
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] AITweakerStatus 0, AISuiteInstalled 0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] IsPadMode 0, IsVertical 0, IsSupported 0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 9704] SupportPadMode 0, IsPadMode 0, IsVertical 0
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 9704] GetHyperFanSettings sn 0, IsLocked 0, HyperFanMode 3, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 9704] CPU Use mode 3
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 9704] GPU Use mode 3
+2023-02-23 13:36:56; INFO; AEF Core; 4660; 5552] AsusDeviceMonitor is started.
+2023-02-23 13:36:56; INFO; Monitor Plugin; 4660; 5552] Receive SM_SERVICE_INITIALIZED
+2023-02-23 13:36:56; INFO; ScenarioProfilePlugIn; 4660; 5552] AC UWP Info: isInstalled:True, Version:5.3.4.0, PPRead:True, PPAgreed:True
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 5552] Receive SM_SERVICE_INITIALIZED
+2023-02-23 13:36:56; INFO; Service Manager; 4660; 5552] NotifyServiceInitialized End
+2023-02-23 13:36:56; CRITICAL; Service Manager; 4660; 5552] /------------Service initialized: 0x00000000------------/
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 10136] PowerMode[3]=-1
+2023-02-23 13:36:56; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 0, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 0, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000008, Mode 3, ModeForUI 3, Current Status 0x0000000F, Supported 0x0000000F, IsAC 1, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 0, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 10136] RecordHyperFanMode: result Unknown error 0xA0800006, ServiceInitialized 1, Job Trigger Type 25, HyperFan Mode 3, IsAC 1
+2023-02-23 13:36:56; CRITICAL; Throttle Plugin; 4660; 10176] ApplyHyperFan sn 0, IsLocked 0, HyperFanMode 3
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 10176] IsGPUTweakEnabled:0, Mode:3
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 10176] GetGPUTuningValue, Mode:3, Result:0x00000000, Values:0x00000003, ProcessorFrequency:100000, MemoryFrequency:120000, PowerTarget:-2147483648, ThermalTarget:-2147483648
+2023-02-23 13:36:56; INFO; Throttle Plugin; 4660; 10176] SetVariBright No VariBright Configures
+2023-02-23 13:36:57; INFO; Throttle Plugin; 4660; 10176] WhisperModeSetting.IsEnabled = FALSE
+2023-02-23 13:36:58; INFO; Throttle Plugin; 4660; 10176] SetWhisperMode OFF
+2023-02-23 13:36:59; WARNING; AEF Core; 4660; 10152] (AsusDeviceMonitor)RLS Connection Status change:(4097)Connected.
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] OnRLSMessage => 4097:FALSE
+2023-02-23 13:36:59; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper TryLock
+2023-02-23 13:36:59; INFO; Service Manager; 4660; 10148] CheckUserSessionHelper info: new SessionId = 1, old SessionId = -1, UserSessionMonitorThread = 0000000000000000
+2023-02-23 13:36:59; WARNING; Service Manager; 4660; 10148] WTSQueryUserToken Failed: 0
+2023-02-23 13:36:59; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper Unlock
+2023-02-23 13:36:59; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:3, device:64, modelname:FA706ICB, id:
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=64, DeviceName:FA706ICB, DeviceId=
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  Count:1,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=64, DeviceName:FA706ICB, DeviceId=
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  Count:1,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=64, DeviceName:FA706ICB, DeviceId=
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  Count:1,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=64, DeviceName:FA706ICB, DeviceId=
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  Count:1,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:3, device:268435462, modelname:Aura Wallpaper, id:none
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  Count:2,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  Count:2,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  Count:2,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  Count:2,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:3, device:0, modelname:GameSDK Service, id:none
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=0, DeviceName:GameSDK Service, DeviceId=none
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  Count:3,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=0, DeviceName:GameSDK Service, DeviceId=none
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  Count:3,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=0, DeviceName:GameSDK Service, DeviceId=none
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  Count:3,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=0, DeviceName:GameSDK Service, DeviceId=none
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  Count:3,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:3, device:1, modelname:TUF GAMING M5, id:0B051898
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=1, DeviceName:TUF GAMING M5, DeviceId=0B051898
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  3:{
+    Attributes:{
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:68AB32E8-9C2B-4494-9921-E4E68F8B32A5,
+      DeviceIndex:0,
+      DisplayName:TUF GAMING M5,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:3.00.20,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:3.01.13,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:USB,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:3.00.20,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:3.01.13,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:0B051898,
+    DeviceName:TUF GAMING M5,
+    DeviceType:1,
+  },
+  Count:4,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=1, DeviceName:TUF GAMING M5, DeviceId=0B051898
+2023-02-23 13:36:59; INFO; Free Up Memory Plugin; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  3:{
+    Attributes:{
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:68AB32E8-9C2B-4494-9921-E4E68F8B32A5,
+      DeviceIndex:0,
+      DisplayName:TUF GAMING M5,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:3.00.20,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:3.01.13,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:USB,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:3.00.20,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:3.01.13,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:0B051898,
+    DeviceName:TUF GAMING M5,
+    DeviceType:1,
+  },
+  Count:4,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=1, DeviceName:TUF GAMING M5, DeviceId=0B051898
+2023-02-23 13:36:59; INFO; GPU Power Saving Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  3:{
+    Attributes:{
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:68AB32E8-9C2B-4494-9921-E4E68F8B32A5,
+      DeviceIndex:0,
+      DisplayName:TUF GAMING M5,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:3.00.20,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:3.01.13,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:USB,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:3.00.20,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:3.01.13,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:0B051898,
+    DeviceName:TUF GAMING M5,
+    DeviceType:1,
+  },
+  Count:4,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged => Attached Device - DeviceType=1, DeviceName:TUF GAMING M5, DeviceId=0B051898
+2023-02-23 13:36:59; INFO; NormalSwitch Plugin ; 4660; 10152] Query AttachedDeviceList=>
+{
+  0:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceIndex:0,
+      DisplayName:FA706ICB,
+      InfoIconEnable:1,
+      LinkToDeviceEnable:1,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:,
+    DeviceName:FA706ICB,
+    DeviceType:64,
+  },
+  1:{
+    Attributes:{
+      AWServiceUpdateTime:20230219185013,
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:A78E52FB-5921-0A22-5D0B-212641047CF4,
+      DeviceIndex:0,
+      DisplayName:Aura Wallpaper,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:1.3.5.0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:1.3.5.0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:0,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:none,
+    DeviceName:Aura Wallpaper,
+    DeviceType:268435462,
+  },
+  2:{
+    Attributes:{
+      CheckBoxEnable:0,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:7160DA8D-3F25-4F6E-ABC8-F693551D82FA,
+      DeviceIndex:0,
+      DisplayName:GameSDK Service,
+      InfoIconEnable:1,
+      LightingMode:NOSUPPORTAURA,
+      LinkToDeviceEnable:0,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:0,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:1.0.5.0,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:none,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:0,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:1.0.5.0,
+      SortingIndex:0,
+      SupportCreator:false,
+      SupportMatrix:0,
+      infoString:NoSupportSynchint,
+    },
+    DeviceId:none,
+    DeviceName:GameSDK Service,
+    DeviceType:0,
+  },
+  3:{
+    Attributes:{
+      CheckBoxEnable:1,
+      DependentAppStatus:0,
+      DeviceCount:1,
+      DeviceGUID:68AB32E8-9C2B-4494-9921-E4E68F8B32A5,
+      DeviceIndex:0,
+      DisplayName:TUF GAMING M5,
+      InfoIconEnable:0,
+      LightingMode:SUPPORTAURA,
+      LinkToDeviceEnable:1,
+      LocalFrameworkVersion:3.1.3.2,
+      LocalHtmlVersion:3.00.20,
+      LocalMainSDKVersion:2.00.22,
+      LocalSDKVersion:3.01.13,
+      MatrixLED_ON:0,
+      MatrixUpdateStatus:0,
+      NeedRestart:false,
+      PIDMode:USB,
+      ServerFrameworkVersion:3.1.3.2,
+      ServerHtmlVersion:3.00.20,
+      ServerMainSDKVersion:2.00.22,
+      ServerSDKVersion:3.01.13,
+      SortingIndex:0,
+      SupportCreator:true,
+      SupportMatrix:0,
+    },
+    DeviceId:0B051898,
+    DeviceName:TUF GAMING M5,
+    DeviceType:1,
+  },
+  Count:4,
+  DeviceSDK:{
+  },
+}
+2023-02-23 13:36:59; INFO; DenoiseAI Pluing; 4660; 10152] OnRLSMessage => 22:{
+    "Version": "1.0.0",
+    "Devices": [
+        {
+            "ProductLine": "TUF"
+        }
+    ]
+}
+
+2023-02-23 13:37:00; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:9, device:0, modelname:, id:
+2023-02-23 13:37:09; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper TryLock
+2023-02-23 13:37:09; INFO; Service Manager; 4660; 10148] CheckUserSessionHelper info: new SessionId = 1, old SessionId = -1, UserSessionMonitorThread = 0000000000000000
+2023-02-23 13:37:09; WARNING; Service Manager; 4660; 10148] WTSQueryUserToken Failed: 0
+2023-02-23 13:37:09; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper Unlock
+2023-02-23 13:37:19; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper TryLock
+2023-02-23 13:37:19; INFO; Service Manager; 4660; 10148] CheckUserSessionHelper info: new SessionId = 1, old SessionId = -1, UserSessionMonitorThread = 0000000000000000
+2023-02-23 13:37:19; WARNING; Service Manager; 4660; 10148] WTSQueryUserToken Failed: 0
+2023-02-23 13:37:19; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper Unlock
+2023-02-23 13:37:29; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper TryLock
+2023-02-23 13:37:29; INFO; Service Manager; 4660; 10148] CheckUserSessionHelper info: new SessionId = 1, old SessionId = -1, UserSessionMonitorThread = 0000000000000000
+2023-02-23 13:37:29; WARNING; Service Manager; 4660; 10148] WTSQueryUserToken Failed: 0
+2023-02-23 13:37:29; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper Unlock
+2023-02-23 13:37:39; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper TryLock
+2023-02-23 13:37:39; INFO; Service Manager; 4660; 10148] CheckUserSessionHelper info: new SessionId = 1, old SessionId = -1, UserSessionMonitorThread = 0000000000000000
+2023-02-23 13:37:39; WARNING; Service Manager; 4660; 10148] WTSQueryUserToken Failed: 0
+2023-02-23 13:37:39; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper Unlock
+2023-02-23 13:37:49; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper TryLock
+2023-02-23 13:37:49; INFO; Service Manager; 4660; 10148] CheckUserSessionHelper info: new SessionId = 1, old SessionId = -1, UserSessionMonitorThread = 0000000000000000
+2023-02-23 13:37:49; WARNING; Service Manager; 4660; 10148] WTSQueryUserToken Failed: 0
+2023-02-23 13:37:49; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper Unlock
+2023-02-23 13:37:59; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper TryLock
+2023-02-23 13:37:59; INFO; Service Manager; 4660; 10148] CheckUserSessionHelper info: new SessionId = 1, old SessionId = -1, UserSessionMonitorThread = 0000000000000000
+2023-02-23 13:37:59; WARNING; Service Manager; 4660; 10148] WTSQueryUserToken Failed: 0
+2023-02-23 13:37:59; CRITICAL; Service Manager; 4660; 10148] FlowLock CheckUserSessionHelper Unlock
+2023-02-23 13:38:02; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange TryLock
+2023-02-23 13:38:02; CRITICAL; Service Manager; 4660; 4664] OnSessionChange Start, EventType = 5, EventData = 8, New SessionId = 1, Old SessionId = -1
+2023-02-23 13:38:02; INFO; Service Manager; 4660; 4664] OnSessionChange Before StopUserSessionHelper, SessionId = -1
+2023-02-23 13:38:02; CRITICAL; Service Manager; 4660; 4664] !--------StopUserSessionHelper Start Process Handle = 0000000000000000--------!
+2023-02-23 13:38:02; CRITICAL; Service Manager; 4660; 4664] !--------StopUserSessionHelper End Process Handle = 0000000000000000--------!
+2023-02-23 13:38:02; CRITICAL; Service Manager; 4660; 4664] !--------RunUserSessionHelper Start Process Handle = 0000000000000000--------!
+2023-02-23 13:38:02; INFO; Service Manager; 4660; 11028] WTSGetActiveConsoleSessionId: 1
+2023-02-23 13:38:02; INFO; Service Manager; 4660; 11028] Into QueryUserToken: 1, 0000000000000FA0
+2023-02-23 13:38:03; INFO; AEF Core; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; AEF Core; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; SoulKey Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; SoulKey Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; GameBoxPlugIn; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; GameBoxPlugIn; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; DeviceServicePlugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; DeviceServicePlugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; Aura Pluing; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; Aura Pluing; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; Loopback Stream; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; Loopback Stream; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; ACStore Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; ACStore Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; UserCenterPlugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; UserCenterPlugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; AC_FDSPlugIn; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; AC_FDSPlugIn; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; Free Up Memory Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; Free Up Memory Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; DenoiseAI Pluing; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; DenoiseAI Pluing; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; GameLibrary Pluing; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; GameLibrary Pluing; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; GameVisual Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:04; INFO; GameVisual Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:04; INFO; GPU Power Saving Plugin ; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; GPU Power Saving Plugin ; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; NormalSwitch Plugin ; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; NormalSwitch Plugin ; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; GridPlugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; GridPlugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; HW Pluing; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; HW Pluing; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Macro Key Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; Macro Key Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Monitor Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; Monitor Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Mobile Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; Mobile Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; ScenarioProfilePlugIn; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; ScenarioProfilePlugIn; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; WebSocketClientPlugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; WebSocketClientPlugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Throttle Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; Throttle Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Utility Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; Utility Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Virtual Drive Plugin; 4660; 11028] Before library join to ush
+2023-02-23 13:38:05; INFO; Virtual Drive Plugin; 4660; 11028] Library join to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Service Manager; 4660; 11028] NotifyUserSession Start Registering Result: 0x00000000
+2023-02-23 13:38:05; INFO; AEF Core; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:05; INFO; AEF Core; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Virtual Drive Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:05; INFO; Virtual Drive Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; DenoiseAI Pluing; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:05; INFO; DenoiseAI Pluing; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; Loopback Stream; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:05; INFO; AEF Core; 4660; 11696] Enter GetPacket loop - UserSessionHelper.
+2023-02-23 13:38:05; INFO; Loopback Stream; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:05; INFO; SoulKey Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:06; INFO; SoulKey Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:06; INFO; GameBoxPlugIn; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:07; INFO; GameBoxPlugIn; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:07; INFO; GameLibrary Pluing; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:07; INFO; GameLibrary Pluing; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:07; INFO; DeviceServicePlugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:07; INFO; DeviceServicePlugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:07; INFO; Macro Key Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:07; INFO; Macro Key Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:07; INFO; Aura Pluing; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:07; INFO; Aura Pluing; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:07; INFO; AC_FDSPlugIn; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:07; INFO; AC_FDSPlugIn; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:07; INFO; UserCenterPlugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:08; INFO; UserCenterPlugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:08; INFO; WebSocketClientPlugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:08; INFO; WebSocketClientPlugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:08; INFO; ACStore Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:08; INFO; ACStore Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:08; INFO; Free Up Memory Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:08; INFO; Free Up Memory Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:08; INFO; Throttle Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:10; INFO; Throttle Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:10; INFO; GPU Power Saving Plugin ; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:10; INFO; Throttle Plugin; 4660; 15772] IsPadMode 0, IsVertical 0, IsSupported 0
+2023-02-23 13:38:10; INFO; Throttle Plugin; 4660; 15772] bFirst 0
+2023-02-23 13:38:10; INFO; Throttle Plugin; 4660; 15772] PowerStatus from 0x00000001 to 0x00000001 for PD
+2023-02-23 13:38:10; INFO; GPU Power Saving Plugin ; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:10; INFO; GameVisual Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:11; INFO; GameVisual Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:11; INFO; NormalSwitch Plugin ; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:11; INFO; GameVisual Plugin; 4660; 16868] GameVisualPlugin::ProcessNotifFromUSH(): Init: UserSessionInitEnd @ SERVICE.
+2023-02-23 13:38:11; INFO; GameVisual Plugin; 4660; 16868] GameVisualPlugin::ProcessNotifFromUSH(): Init: Service Initialized.
+2023-02-23 13:38:12; INFO; NormalSwitch Plugin ; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:12; INFO; GridPlugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:12; INFO; GameVisual Plugin; 4660; 16872] GameVisualPlugin::GVHiddenWndProcThrd(): GameVisual Svc Hidden Wnd Hidden Window Creation OK!
+2023-02-23 13:38:12; INFO; GridPlugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:12; INFO; HW Pluing; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:12; INFO; HW Pluing; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:12; INFO; Monitor Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:12; INFO; Monitor Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:12; INFO; Mobile Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:12; INFO; Mobile Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:12; INFO; ScenarioProfilePlugIn; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:12; INFO; ScenarioProfilePlugIn; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:12; INFO; Utility Plugin; 4660; 11028] Before Library init to ush
+2023-02-23 13:38:12; CRITICAL; Throttle Plugin; 4660; 17232] Handle Command : 61444
+2023-02-23 13:38:12; INFO; ScenarioProfilePlugIn; 4660; 17232] Data from HyperFan (Service) : AITweakerStatus 0, AISuiteInstalled 0
+2023-02-23 13:38:12; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:2, device:268435462, modelname:Aura Wallpaper, id:none
+2023-02-23 13:38:12; INFO; GameBoxPlugIn; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:12; INFO; GameLibrary Pluing; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:12; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:12; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:12; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:12; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Plugout - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:12; INFO; Utility Plugin; 4660; 11028] Library init to ush, result = 0x00000000
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 11028] NotifyUserSession Stop Registering Result: 0x00000000
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 11028] NotifyServiceInitialized Start, init:1, fullInit:1.
+2023-02-23 13:38:12; INFO; Throttle Plugin; 4660; 17356] IsPadMode 0, IsVertical 0, IsSupported 0
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 11028] NotifyServiceInitialized End
+2023-02-23 13:38:12; CRITICAL; Service Manager; 4660; 4664] !--------RunUserSessionHelper End Process Handle = 0000000000000378, Process Id = 11220--------!
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnSessionChange After RunUserSessionHelper, SessionId = 1
+2023-02-23 13:38:12; ERROR; SoulKey Plugin; 4660; 9736] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; GameBoxPlugIn; 4660; 9700] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; DeviceServicePlugin; 4660; 9692] [DeviceServicePlugin] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; AC_FDSPlugIn; 4660; 9680] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; Free Up Memory Plugin; 4660; 9696] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; DenoiseAI Pluing; 4660; 9664] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; GameLibrary Pluing; 4660; 9688] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; GPU Power Saving Plugin ; 4660; 9708] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; NormalSwitch Plugin ; 4660; 9716] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; Mobile Plugin; 4660; 9728] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; INFO; ScenarioProfilePlugIn; 4660; 9732] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; ERROR; WebSocketClientPlugin; 4660; 9668] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; CRITICAL; Service Manager; 4660; 4664] OnSessionChange End, EventType = 5, EventData = 8, New SessionId = 1, Old SessionId = -1
+2023-02-23 13:38:12; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange Unlock
+2023-02-23 13:38:12; ERROR; Virtual Drive Plugin; 4660; 9656] UserSession:0, OnSessionChange: Event:5
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:12; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:13; INFO; ScenarioProfilePlugIn; 4660; 15860] start GetCurrentHyperFanMode
+2023-02-23 13:38:13; CRITICAL; Throttle Plugin; 4660; 15860] Handle Command : 61442
+2023-02-23 13:38:13; INFO; ScenarioProfilePlugIn; 4660; 15860] {
+  Command:61442,
+  Mode:8,
+}
+2023-02-23 13:38:13; CRITICAL; Throttle Plugin; 4660; 15860] Handle Command : 61442
+2023-02-23 13:38:13; INFO; ScenarioProfilePlugIn; 4660; 15860] {
+  Command:61442,
+  Mode:8,
+}
+2023-02-23 13:38:13; INFO; ScenarioProfilePlugIn; 4660; 15860] End GetCurrentHyperFanMode
+2023-02-23 13:38:13; WARNING; AEF Core; 4660; 10152] (AsusDeviceMonitor)Receive Update but device(268435462:Aura Wallpaper:none:0) can not be found...do add
+2023-02-23 13:38:13; WARNING; AEF Core; 4660; 10152] Get Asus Device Change Message msg:7, device:268435462, modelname:Aura Wallpaper, id:none
+2023-02-23 13:38:13; INFO; DenoiseAI Pluing; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:13; INFO; Free Up Memory Plugin; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:13; INFO; GPU Power Saving Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:13; INFO; NormalSwitch Plugin ; 4660; 10152] OnAsusDeviceChanged : Device Update - DeviceType=268435462, DeviceName:Aura Wallpaper, DeviceId=none
+2023-02-23 13:38:16; CRITICAL; Throttle Plugin; 4660; 16576] Handle Command : 16
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 13:38:35; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 13:38:50; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:38:50; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2ACA0
+2023-02-23 13:38:50; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:42:53; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:42:53; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2A8B0
+2023-02-23 13:42:53; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:47:41; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 13:47:41; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2AA70
+2023-02-23 13:47:41; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 13:59:11; INFO; Throttle Plugin; 4660; 10292] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-23 13:59:11; INFO; Throttle Plugin; 4660; 10292] NeedXTUDriver End, need 0
+2023-02-23 13:59:11; INFO; Throttle Plugin; 4660; 10292] ACMode from 3 to 2
+2023-02-23 13:59:11; CRITICAL; Throttle Plugin; 4660; 10292] GetHyperFanSettings sn 1, IsLocked 0, HyperFanMode 2, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-23 13:59:11; CRITICAL; Throttle Plugin; 4660; 10292] CPU Use mode 2
+2023-02-23 13:59:11; CRITICAL; Throttle Plugin; 4660; 10292] GPU Use mode 2
+2023-02-23 13:59:11; INFO; Throttle Plugin; 4660; 10136] PowerMode[2]=-1
+2023-02-23 13:59:11; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-23 13:59:11; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 1, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 2, ModeForUI 2, Current Status 0x0000000F, Supported 0x0000000F, IsAC 1, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-23 13:59:11; CRITICAL; Throttle Plugin; 4660; 22040] ApplyHyperFan sn 1, IsLocked 0, HyperFanMode 2
+2023-02-23 13:59:11; INFO; Throttle Plugin; 4660; 22040] IsGPUTweakEnabled:0, Mode:2
+2023-02-23 13:59:11; INFO; Throttle Plugin; 4660; 22040] GetGPUTuningValue, Mode:2, Result:0x00000000, Values:0x00000003, ProcessorFrequency:0, MemoryFrequency:0, PowerTarget:-2147483648, ThermalTarget:-2147483648
+2023-02-23 13:59:11; INFO; Throttle Plugin; 4660; 22040] SetVariBright No VariBright Configures
+2023-02-23 13:59:12; INFO; Throttle Plugin; 4660; 4028] NeedXTUDriver Begin, File Exist 0, CPUVendorID 2, OverclockType 3 TGCpuInfo[2] 0000000000000000
+2023-02-23 13:59:12; INFO; Throttle Plugin; 4660; 4028] NeedXTUDriver End, need 0
+2023-02-23 13:59:12; INFO; Throttle Plugin; 4660; 4028] ACMode from 2 to 1
+2023-02-23 13:59:12; CRITICAL; Throttle Plugin; 4660; 4028] GetHyperFanSettings sn 2, IsLocked 0, HyperFanMode 1, IsCPUManual 0, IsCPUDCManual 0, IsGPUManual 0, IsGPUDCManual 0
+2023-02-23 13:59:12; CRITICAL; Throttle Plugin; 4660; 4028] CPU Use mode 1
+2023-02-23 13:59:12; CRITICAL; Throttle Plugin; 4660; 4028] GPU Use mode 1
+2023-02-23 13:59:12; INFO; Throttle Plugin; 4660; 10136] PowerMode[1]=-1
+2023-02-23 13:59:12; INFO; ScenarioProfilePlugIn; 4660; 10136] ProcessRequest : HyperFanStatusChange
+2023-02-23 13:59:12; CRITICAL; Throttle Plugin; 4660; 10136] HyperFan Job(sn 2, remaining 0): IsChanged 1, ResultForNotifyConsole 0, ResultForNotifyUserSession 1, ResultForNotifyOtherPlugin 1, ID {467227BF-4B16-462A-8ABB-9BA331EE45DB}, Trigger 0x00000002, Mode 1, ModeForUI 1, Current Status 0x0000000F, Supported 0x0000000F, IsAC 1, HasPD100W 0, IsLocked 0, AITweakerStatus 0, AISuiteInstalled 0, IsPadMode 0, IsVertical 0, JustDo 0, ShowOSD 1, NotifyUI 1, bSupportXGMobile 0, bOCControlByAP 0
+2023-02-23 13:59:12; INFO; Throttle Plugin; 4660; 22040] WhisperModeSetting.IsEnabled = FALSE
+2023-02-23 13:59:13; INFO; Throttle Plugin; 4660; 22040] SetWhisperMode OFF
+2023-02-23 13:59:13; CRITICAL; Throttle Plugin; 4660; 23488] ApplyHyperFan sn 2, IsLocked 0, HyperFanMode 1
+2023-02-23 13:59:13; INFO; Throttle Plugin; 4660; 23488] IsGPUTweakEnabled:0, Mode:1
+2023-02-23 13:59:14; INFO; Throttle Plugin; 4660; 23488] GetGPUTuningValue, Mode:1, Result:0x00000000, Values:0x00000003, ProcessorFrequency:0, MemoryFrequency:0, PowerTarget:-2147483648, ThermalTarget:-2147483648
+2023-02-23 13:59:14; INFO; Throttle Plugin; 4660; 23488] SetVariBright No VariBright Configures
+2023-02-23 13:59:15; INFO; Throttle Plugin; 4660; 23488] WhisperModeSetting splLimit:1, minFps:60, ModeName:Slient
+2023-02-23 13:59:18; INFO; Throttle Plugin; 4660; 23488] SetWhisperMode splLimit:1, minFps:60, ModeName:Slient
+2023-02-23 13:59:42; INFO; Throttle Plugin; 4660; 10140] RecordHyperFanMode: result Unknown error 0xA0800006, ServiceInitialized 1, Job Trigger Type 56, HyperFan Mode 1, IsAC 1
+2023-02-23 14:06:48; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 14:06:48; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2A8B0
+2023-02-23 14:06:48; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 14:21:19; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 14:21:19; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2AA70
+2023-02-23 14:21:19; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 14:21:19; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 14:21:19; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=10, lpEventData=0000000000000000
+2023-02-23 14:21:19; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 14:34:34; WARNING; AEF Core; 4660; 11696] Read packet failed from UserSessionHelper.
+2023-02-23 14:34:34; INFO; AEF Core; 4660; 11696] Leave GetPacket loop - UserSessionHelper.
+2023-02-23 14:34:34; ERROR; AEF Core; 4660; 10156] (AsusDeviceMonitor)ReadPipe Error - GetOverlappedResult:-2147024787.
+2023-02-23 14:34:34; CRITICAL; Service Manager; 4660; 11028] !--------User Session Helper was be terminated, Process ID = 11220--------!
+2023-02-23 14:34:34; INFO; Service Manager; 4660; 11028] !--------User Session Helper was be terminated due to QueryEndSession--------!
+2023-02-23 14:34:34; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange TryLock
+2023-02-23 14:34:34; CRITICAL; Service Manager; 4660; 4664] OnSessionChange Start, EventType = 3, EventData = 8, New SessionId = 1, Old SessionId = 1
+2023-02-23 14:34:34; ERROR; SoulKey Plugin; 4660; 9736] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; GameBoxPlugIn; 4660; 9700] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; DeviceServicePlugin; 4660; 9692] [DeviceServicePlugin] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; AC_FDSPlugIn; 4660; 9680] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; Free Up Memory Plugin; 4660; 9696] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; GameLibrary Pluing; 4660; 9688] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; DenoiseAI Pluing; 4660; 9664] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; GPU Power Saving Plugin ; 4660; 9708] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; NormalSwitch Plugin ; 4660; 9716] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; Mobile Plugin; 4660; 9728] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; INFO; ScenarioProfilePlugIn; 4660; 9732] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; WebSocketClientPlugin; 4660; 9668] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; ERROR; Virtual Drive Plugin; 4660; 9656] UserSession:0, OnSessionChange: Event:3
+2023-02-23 14:34:34; CRITICAL; Service Manager; 4660; 4664] OnSessionChange End, EventType = 3, EventData = 8, New SessionId = 1, Old SessionId = 1
+2023-02-23 14:34:34; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange Unlock
+2023-02-23 14:34:38; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 14:34:38; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=32787, lpEventData=0000025718C2B6B0
+2023-02-23 14:34:38; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange TryLock
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange Start, EventType = 6, EventData = 8, New SessionId = 1, Old SessionId = 1
+2023-02-23 14:34:38; ERROR; SoulKey Plugin; 4660; 9736] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; GameBoxPlugIn; 4660; 9700] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; DeviceServicePlugin; 4660; 9692] [DeviceServicePlugin] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; AC_FDSPlugIn; 4660; 9680] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; Free Up Memory Plugin; 4660; 9696] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; DenoiseAI Pluing; 4660; 9664] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; GPU Power Saving Plugin ; 4660; 9708] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; GameLibrary Pluing; 4660; 9688] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; Mobile Plugin; 4660; 9728] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; INFO; ScenarioProfilePlugIn; 4660; 9732] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; WebSocketClientPlugin; 4660; 9668] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; NormalSwitch Plugin ; 4660; 9716] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; ERROR; Virtual Drive Plugin; 4660; 9656] UserSession:0, OnSessionChange: Event:6
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange End, EventType = 6, EventData = 8, New SessionId = 1, Old SessionId = 1
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange Unlock
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange TryLock
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange Start, EventType = 2, EventData = 8, New SessionId = -1, Old SessionId = -1
+2023-02-23 14:34:38; ERROR; GameBoxPlugIn; 4660; 9700] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; SoulKey Plugin; 4660; 9736] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; DeviceServicePlugin; 4660; 9692] [DeviceServicePlugin] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; AC_FDSPlugIn; 4660; 9680] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; Free Up Memory Plugin; 4660; 9696] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; DenoiseAI Pluing; 4660; 9664] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; GameLibrary Pluing; 4660; 9688] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; GPU Power Saving Plugin ; 4660; 9708] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; NormalSwitch Plugin ; 4660; 9716] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; Mobile Plugin; 4660; 9728] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; INFO; ScenarioProfilePlugIn; 4660; 9732] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; ERROR; WebSocketClientPlugin; 4660; 9668] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange End, EventType = 2, EventData = 8, New SessionId = -1, Old SessionId = -1
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange Unlock
+2023-02-23 14:34:38; ERROR; Virtual Drive Plugin; 4660; 9656] UserSession:0, OnSessionChange: Event:2
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange TryLock
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange Start, EventType = 4, EventData = 8, New SessionId = -1, Old SessionId = -1
+2023-02-23 14:34:38; ERROR; DeviceServicePlugin; 4660; 9692] [DeviceServicePlugin] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; SoulKey Plugin; 4660; 9736] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; GameBoxPlugIn; 4660; 9700] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; AC_FDSPlugIn; 4660; 9680] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; Free Up Memory Plugin; 4660; 9696] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; DenoiseAI Pluing; 4660; 9664] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; GameLibrary Pluing; 4660; 9688] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; NormalSwitch Plugin ; 4660; 9716] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; GPU Power Saving Plugin ; 4660; 9708] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; Mobile Plugin; 4660; 9728] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; ERROR; WebSocketClientPlugin; 4660; 9668] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; INFO; ScenarioProfilePlugIn; 4660; 9732] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange End, EventType = 4, EventData = 8, New SessionId = -1, Old SessionId = -1
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange Unlock
+2023-02-23 14:34:38; ERROR; Virtual Drive Plugin; 4660; 9656] UserSession:0, OnSessionChange: Event:4
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange TryLock
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange Start, EventType = 1, EventData = 8, New SessionId = 2, Old SessionId = -1
+2023-02-23 14:34:38; ERROR; SoulKey Plugin; 4660; 9736] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; DeviceServicePlugin; 4660; 9692] [DeviceServicePlugin] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; AC_FDSPlugIn; 4660; 9680] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; DenoiseAI Pluing; 4660; 9664] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; GameLibrary Pluing; 4660; 9688] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; GPU Power Saving Plugin ; 4660; 9708] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; NormalSwitch Plugin ; 4660; 9716] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; Mobile Plugin; 4660; 9728] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; INFO; ScenarioProfilePlugIn; 4660; 9732] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; WebSocketClientPlugin; 4660; 9668] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; GameBoxPlugIn; 4660; 9700] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] OnSessionChange End, EventType = 1, EventData = 8, New SessionId = 2, Old SessionId = -1
+2023-02-23 14:34:38; CRITICAL; Service Manager; 4660; 4664] FlowLock OnSessionChange Unlock
+2023-02-23 14:34:38; ERROR; Virtual Drive Plugin; 4660; 9656] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:38; ERROR; Free Up Memory Plugin; 4660; 9696] UserSession:0, OnSessionChange: Event:1
+2023-02-23 14:34:39; INFO; Service Manager; 4660; 4664] OnPowerChange Start
+2023-02-23 14:34:39; INFO; Service Manager; 4660; 4664] OnPowerChange dwEventType=4, lpEventData=0000000000000000
+2023-02-23 14:34:39; INFO; Service Manager; 4660; 4664] OnPowerChange End
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:40; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:41; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange End
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange Start
+2023-02-23 14:34:42; INFO; Service Manager; 4660; 4664] OnDeviceChange End
