@@ -28,7 +28,7 @@ class TestController extends AbstractController
                 ],
                 'picture' => $faker->imageUrl(50, 50, 'animals', true, 'dogs', true, 'jpg'),
                 'cover' => $faker->imageUrl(360, 360, 'jpg'),
-                'createdAt' => $faker->dateTimeBetween('-6 months'),
+                'createdAt' => $faker->dateTimeBetween('-5 months'),
             ];
             $users[$i] = $user;
         }
