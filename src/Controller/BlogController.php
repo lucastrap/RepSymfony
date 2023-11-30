@@ -2,29 +2,25 @@
 
 namespace App\Controller;
 
+use App\Repository\ArticleRepository;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 
 class BlogController extends AbstractController
-{   //Exercice 2 : 
-    #[Route('/blog/{id}/{name}', name: 'app_blog', requirements:[    "name" => "[a-zA-Z]{5,50}",    "id" => "[0-9]{2,6}"])]
-    public function index(int $id, string $name): Response
+{  
+
+
+    #[Route('/blog/articles', name: 'app_blog_articles')]
+    public function showArticles(ArticleRepository $repoArticle): Response
     {
+        $articles=$repoArticle->findAll();
+       // dd($articles);
         return $this->render('blog/index.html.twig', [
-            'id' => $id,
-            'name' => $name,
+            'articles'=>$articles
         ]);
     }
 
-    //Exercice 1 :
-
-    #[Route('/', name: 'app_base')]
-    public function base(): Response
-    {
-        return new Response('Hello World !'); 
-     
-    }
 }
 

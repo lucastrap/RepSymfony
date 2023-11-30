@@ -16,6 +16,7 @@ class BlogFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
+
         $faker = Factory::create('fr_FR'); // plus d'information ici: https://fakerphp.github.io/
             // on crée un tableau vide des users pour stockage "local"
             $users = [];
@@ -73,7 +74,8 @@ class BlogFixtures extends Fixture
             $dateArt = DateTimeImmutable::createFromMutable($faker->dateTime()); $article = (new Article())->setTitle($faker->sentence (3))
                                                                     ->setContent($faker->text (80))
                                                                     ->setImageUrl("https://picsum.photos/360/360?image=". ($i+300))
-                                                                    ->setCreatedAt($dateArt);
+                                                                    ->setCreatedAt($dateArt)
+                                                                    ->setAuthor($user);
             // tirage aléa d'un auteur/user pour cet article ->setAuthor ($users [rand (0, count($users)-1)])
             // tirage aléa d'une categorie pour cet article ->addCategory($categories [rand (0, count($categories)-1)]);
             $manager->persist($article);
