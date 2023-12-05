@@ -54,16 +54,37 @@ a{
     border-radius: 40px;
     padding: 2px 5px;
 }
-.btn{
+.btn {
     padding: 12px;
     font-size: 1.2rem;
     color: white;
     cursor: pointer;
     border: none;
+    display: inline-block;
     width: 100%;
+    padding-left: 2px;
     box-shadow: 0 2px 25px #1d1d1d;
     background: var(--main-gradient);
+    text-align: center; /* Center the text horizontally */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
+th, td {
+    border: 2px solid black; /* Add borders to table cells */
+    padding: 10px;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid black; /* Add a bottom border to separate rows */
+}
+
+/* Additional styling for table header */
+th {
+    background-color: #f2f2f2;
 }
 footer{
     background: var(--main-gradient);
@@ -100,3 +121,4 @@ footer ul li{
     line-height: 1.2;
     padding-bottom: 15px;
 }
+

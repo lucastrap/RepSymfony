@@ -58,23 +58,46 @@ public function buildForm(FormBuilderInterface $builder, array $options): void
             'required' => true,
             'label' => 'Author',
         ])
-        ->add('slug', TextType::class,[
-            
+        ->add('slug', TextType::class, [
+            'required' => false,
+            'attr' => [
+                'style' => 'display: none;', // This will hide the field
+            ],
+            'label_attr' => [
+                'style' => 'display: none;', // This will hide the label
+            ],
         ])
-
+        
         
         // Add the 'createdAt' and 'updatedAt' fields with the specified format
         ->add('createdAt', DateType::class, [
             'input' => 'datetime_immutable',
             'label' => 'Created At',
-            'format' => 'dd MM yyyy HH mm ss',
+            'format' => 'dd/MM/yyyy HH:mm:ss',
         ])
         ->add('updatedAt', DateType::class, [
             'input' => 'datetime_immutable',
             'label' => 'Updated At',
-            'format' => 'dd MM yyyy  HH mm ss',
+            'format' => 'dd/MM/yyyy HH:mm:ss',
         ])
-      
+        
+        ->addEventListener(FormEvents::PRE_SUBMIT, function (FormEvent $event) {
+            $data = $event->getData();
+            $form = $event->getForm();
+
+            // Check if title is set in the submitted data
+            if (isset($data['title'])) {
+                // Use Cocur\Slugify\Slugify to generate a slug from the title
+                $slugify = new Slugify();
+                $slug = $slugify->slugify($data['title']);
+
+                // Set the slug field with the generated slug
+                $data['slug'] = $slug;
+
+                // Update the form data
+                $event->setData($data);
+            }
+        })
        
     ;
 }
