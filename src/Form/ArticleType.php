@@ -16,6 +16,7 @@ use  Symfony\Component\Form\Extension\Core\Type\UrlType;
 use  Symfony\Component\Form\Extension\Core\Type\DateType;
 use  Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Cocur\Slugify\Slugify;
+use SebastianBergmann\CodeCoverage\Driver\WriteOperationFailedException;
 use Symfony\Component\Form\FormEvent;
 use Symfony\Component\Form\FormEvents;
 
@@ -57,19 +58,21 @@ public function buildForm(FormBuilderInterface $builder, array $options): void
             'required' => true,
             'label' => 'Author',
         ])
-        ->add('slug', TextType::class)
+        ->add('slug', TextType::class,[
+            
+        ])
 
         
         // Add the 'createdAt' and 'updatedAt' fields with the specified format
         ->add('createdAt', DateType::class, [
             'input' => 'datetime_immutable',
             'label' => 'Created At',
-            'format' => 'dd MM yyyy',
+            'format' => 'dd MM yyyy HH mm ss',
         ])
         ->add('updatedAt', DateType::class, [
             'input' => 'datetime_immutable',
             'label' => 'Updated At',
-            'format' => 'dd MM yyyy',
+            'format' => 'dd MM yyyy  HH mm ss',
         ])
       
        
