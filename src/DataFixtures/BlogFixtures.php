@@ -65,21 +65,26 @@ class BlogFixtures extends Fixture
                                                                 ->setDescription ($faker->paragraph())
                                                                 ->setImageUrl("https://picsum.photos/360/360?image=".($i+200))
                                                                 ->setCreatedAt($dateC);
+            $category->updateSlug();                                                    
             $categories[] = $category; // on stocke pour tirage aléa plus tard
             $manager->persist($category);
             $manager->flush();
             }
             // Génération des articles
             for ($i=0; $i < 100; $i++) {
-            $dateArt = DateTimeImmutable::createFromMutable($faker->dateTime()); $article = (new Article())->setTitle($faker->sentence (3))
-                                                                    ->setContent($faker->text (80))
-                                                                    ->setImageUrl("https://picsum.photos/360/360?image=". ($i+300))
-                                                                    ->setCreatedAt($dateArt)
-                                                                    ->setAuthor($user);
-            // tirage aléa d'un auteur/user pour cet article ->setAuthor ($users [rand (0, count($users)-1)])
-            // tirage aléa d'une categorie pour cet article ->addCategory($categories [rand (0, count($categories)-1)]);
-            $manager->persist($article);
-            $manager->flush();
-        }
+                $dateArt = DateTimeImmutable::createFromMutable($faker->dateTime()); 
+                
+                $article = (new Article())->setTitle($faker->sentence (3))
+                                        ->setContent($faker->text (80))
+                                        ->setImageUrl("https://picsum.photos/360/360?image=". ($i+300))
+                                        ->setCreatedAt($dateArt)
+                                        ->setAuthor ($users [rand (0, count($users)-1)])
+                                        ->addCategory($categories [rand (0, count($categories)-1)]);
+                   
+                $article->updateSlug();
+            
+                $manager->persist($article);
+                $manager->flush();
+            }
     }
 }

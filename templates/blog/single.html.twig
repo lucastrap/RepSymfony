@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}The article{% endblock %}
+
+{% block body %}
+
+    <div class="single-article">
+    {% for category in article.categories %}
+                    <div class="article-category-item ">Article de la catégories : <strong>{{category.name}}</strong></br> <strong>{{category.articles | length}}</strong> article(s) retrouvés</div>
+{% endfor %}
+        <div class="article-image">
+            <img src={{article.imageUrl}} width="300" heigth="300" alt="Image de l'article : {{article.title}}">
+        </div>
+        <div class="article-details flex">
+            <div class="article-content-details">
+                <h2 class="article-title"> {{article.title}}</h2>
+                <div class="article-fromNow">{{article.fromNow}}</div>
+                <div class="article-categories flex wrap">
+                {% for category in article.categories %}
+                    <div class="article-category-item badge">
+    <a href="{{ path('app_single_category', {'slug': category.slug}) }}">{{ category.name }}</a>
+    ({{ category.articles | length }} article(s) publié(s))
+</div>
+
+                          
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <p>{{article.content}}</p>
+{% endblock %}

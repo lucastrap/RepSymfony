@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Cocur\Slugify\Slugify;
+use EsperoSoft\DateFormat\DateFormat;
 use App\Repository\ArticleRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -36,6 +38,11 @@ class Article
 
     #[ORM\ManyToOne(inversedBy: 'articles')]
     private ?User $author = null;
+
+    private ?string $fromNow = null;
+
+    #[ORM\Column(length:255)]
+    private ?string $slug = null;
 
     public function __construct()
     {
@@ -144,5 +151,36 @@ class Article
         $this->author = $author;
 
         return $this;
+    }
+ 
+    /**
+     * Get the value of fromNow
+     */
+    public function getFromNow(): string
+    {
+        return DateFormat::fromNow($this->createdAt) ;
+    }
+
+    /**
+     * Get the value of slug
+     */
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    /**
+     * Set the value of slug
+     */
+    public function setSlug( $slug)
+    {
+        $this->slug = $slug;
+
+        return $this;
+    }
+
+    public function updateSlug(): void {
+        $slugify = new Slugify();
+        $this->slug = $slugify->slugify($this->title);
     }
 }

@@ -1,0 +1,49 @@
+@import url("components/colors.css");
+@import url("components/index.css");
+@import url("components/single.css");
+@import url("components/header.css");
+@import url("components/home.css");
+
+/* Add this CSS to your stylesheet or create a new one */
+
+/* Style for the buttons */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px solid #333;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+  }
+  
+  .btn-warning:hover {
+    background-color: #d39e00;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  

@@ -38,6 +38,7 @@ class ArticleRepository extends ServiceEntityRepository
             $this->getEntityManager()->flush();
         }
     }
+   
 
 //    /**
 //     * @return Article[] Returns an array of Article objects
