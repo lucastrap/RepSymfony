@@ -33,7 +33,32 @@ class BlogController extends AbstractController
         return $this->render('blog/single.html.twig',['article' => $article, 'categories'=>$categories]);
     }
 
+    #[Route('/articles', name: 'app_list_articles')]
+      public function index(): Response
+    {
+        return new Response('Hello World!');
+    }
+
     #[Route('/article/categories/{slug}', name: 'app_articles_by_category')]
+    public function multipleCat(CategoryRepository $repoCategory, string $slug): Response{
+
+        $categories = $repoCategory->findAll();
+        $category = $repoCategory->findOneBySlug($slug);
+
+        $articles = [];
+
+        if($category){
+            $articles = $category->getArticles();
+        }
+
+        return $this->render('blog/articles_by_category.html.twig', [
+            'articles' => $articles,
+            'category' => $category,
+            'categories' => $categories, 
+            'slug' => $slug
+        ]);
+    }
+    #[Route('/article/categories/{slug}', name: 'app_single_category')]
     public function singleCat(CategoryRepository $repoCategory, string $slug): Response{
 
         $categories = $repoCategory->findAll();
@@ -53,6 +78,7 @@ class BlogController extends AbstractController
         ]);
     }
     
+    
    
     
     
@@ -64,10 +90,11 @@ class BlogController extends AbstractController
     }
     
     #[Route('/', name: 'app_blog_hello')]
-    public function index(): Response
+    public function home(): Response
     {
         return new Response('Hello World!');
     }
 }
+
 
 
